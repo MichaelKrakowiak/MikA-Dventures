@@ -2,7 +2,8 @@
 html, body{
     height: 100vh;
     overflow: hidden;
-    color : white
+    color : white;
+    font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #6fccdc;
+    background-color: #60bac7;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
@@ -31,7 +32,7 @@ body {
 .sidebar li, a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #fff;
     display: block;
     transition: 0.3s;
@@ -52,14 +53,14 @@ body {
 .openbtn {
     font-size: 1rem;
     cursor: pointer;
-    background-color: #6fccdc;
+    background-color: #60bac7;
     color: white;
     padding: 10px 15px;
     border: none;
 }
 
 .openbtn:hover {
-    background-color: #6fccdc;
+    background-color: #60bac7;
 }
 
 #main {
