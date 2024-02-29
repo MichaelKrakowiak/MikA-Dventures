@@ -1,0 +1,86 @@
+/*Main style*/
+html, body{
+    height: 100vh;
+    overflow: hidden;
+    color : white
+}
+
+body {
+    background-image: url(../picture/2184587-fond-moderne-avec-effet-paillettes-abstrait-realiste-papier-decoupe-fond-abstrait-geometrique-fond-vecteur-3d-illustration-illustratio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+/*Nav style*/
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #6fccdc;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidebar li, a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #6fccdc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #6fccdc;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+/*Footer style*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+}

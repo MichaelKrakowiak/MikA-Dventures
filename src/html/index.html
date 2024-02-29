@@ -4,14 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../scripts/index.js" defer></script>
     <title>MikA'Dventures</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav id="mySidebar" class="sidebar">
             <ul>
-                <li><a href="">Accueil</a></li>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+                <li><a href="/">Accueil</a></li>
                 <li>Mieux me connaitre</li>
                 <ul>
                     <li><a href="">Qui suis-je ?</a></li>
@@ -26,12 +30,28 @@
                 </ul>
             </ul>
         </nav>
+
+
+
     </header>
     <main>
-        <h1>Bienvenue sur mon site MikA'Dventures</h1>
-        <p>Jeune développeur, mais confirmé par l'expérience dans le monde du travail.</p>
-        <p>Venez me découvrir au travers de ce site et suivre mes aventures</p>
-        <p>Bonne navigation.</p>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openSidebar()">&#9776; Menu</button>
+            <h1>Bienvenue sur mon site MikA'Dventures</h1>
+            <p>Jeune développeur, mais confirmé par l'expérience dans le monde du travail.</p>
+            <p>Venez me découvrir au travers de ce site et suivre mes aventures épiques et mon adoubement en tant que
+                Développeur !</p>
+            <p>Bonne navigation.</p>
+        </div>
+
     </main>
     <footer>
         <p>Mika'Dventures - Tous droits réservés - 2024</p>
