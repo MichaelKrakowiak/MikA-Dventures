@@ -20,7 +20,7 @@ body {
     
 }
 
-/*Nav style*/
+/*Sidebar*/
 
 .sidebar {
     height: 100%;
@@ -77,13 +77,25 @@ body {
     color: #457C8B;
 }
 
-.hidden {
-    display: none;
-}
+/*Main*/
 
 #main {
     transition: margin-left 0.5s;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+h1 {
+    text-align: center;
+    font-size : 48px;
+}
+
+main p {
+    text-align: center;
+    justify-content: justify;
 }
 
 @media screen and (max-height: 450px) {

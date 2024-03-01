@@ -7,13 +7,11 @@ const closeBtn = document.querySelector('#closeBtn');
 
 
 menuButton.addEventListener('click', () => {
-    menuButton.classList.add('hidden');
-    sidebar.style.width = "400px";
-    mainSelection.style.marginLeft = "400px";
+    sidebar.style.width = "300px";
+    mainSelection.style.marginLeft = "300px";
 });
 
 closeBtn.addEventListener('click', ()=>{
-    menuButton.classList.remove('hidden');
     sidebar.style.width = "0";
     mainSelection.style.marginLeft = "0";
 });
