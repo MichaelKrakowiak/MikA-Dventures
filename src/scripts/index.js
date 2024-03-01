@@ -1,9 +1,19 @@
-const openSidebar = () => {
-    document.getElementById("mySidebar").style.width = "400px";
-    document.getElementById("main").style.marginLeft = "400px";
-};
+// Menu & close buttons interactions :
 
-const closeSidebar = () => {
-    document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-};
+const menuButton = document.querySelector('#menuBtn');
+const sidebar = document.querySelector('#mySidebar');
+const mainSelection = document.querySelector('#main');
+const closeBtn = document.querySelector('#closeBtn');
+
+
+menuButton.addEventListener('click', () => {
+    menuButton.classList.add('hidden');
+    sidebar.style.width = "400px";
+    mainSelection.style.marginLeft = "400px";
+});
+
+closeBtn.addEventListener('click', ()=>{
+    menuButton.classList.remove('hidden');
+    sidebar.style.width = "0";
+    mainSelection.style.marginLeft = "0";
+});

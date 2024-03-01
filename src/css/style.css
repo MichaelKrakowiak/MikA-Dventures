@@ -77,6 +77,10 @@ body {
     color: #457C8B;
 }
 
+.hidden {
+    display: none;
+}
+
 #main {
     transition: margin-left 0.5s;
     padding: 20px;
