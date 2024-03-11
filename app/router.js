@@ -5,7 +5,7 @@ const router = express.Router()
 
 router.get('/', mainController.homePage);
 
-router.get('/biographie', mainController.underConstruction);
+router.get('/biographie', mainController.bioPage);
 router.get('/parcours', mainController.underConstruction);
 router.get('/experiences', mainController.underConstruction);
 router.get('/passions', mainController.underConstruction);

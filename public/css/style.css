@@ -123,3 +123,31 @@ footer {
     width: 500px;
     margin-top: 3rem;
 }
+
+.biography_content {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 2rem;
+}
+
+.biography_picture {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.biography_description {
+    width: 29%;
+    margin-left : 5rem;
+}
+
+.biography_link{
+    text-align: center;
+    border: solid #60bac7;
+    background-color: #60bac7;
+}
+
+.biography_link:hover {
+    color: #457C8B;
+}
