@@ -3,10 +3,6 @@ const mainController = {
         res.render('home')
     },
 
-    bioPage: function (req, res) {
-        res.render('biographie')
-            },
-
     underConstruction: function (req, res) {
         res.render('underConstruction')
     },
